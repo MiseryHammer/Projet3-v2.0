@@ -188,20 +188,18 @@ footer nav ul {
 
 
 
-.menuAdmin {
+
+  
+/* LOGIN */
+.login {
 	display: flex;
-	flex-direction: row;
-	align-items: baseline;
+	flex-direction: column;
 	justify-content: center;
-	margin-bottom: 0;
+	align-items: center;
+	height: 80vh;
   }
   
-  .btnAdmin {
-	display: none;
-	margin: 1em;
+  .login a {
+	text-decoration: underline;
+	margin-bottom: 100px;
   }
-  
-  #logout {
-	display: none;
-  }
-  
