@@ -39,17 +39,17 @@
         <h2>Log In</h2>
 		<div class="alredyLogged__error">
 		</div>
-        <form action="" method="" class="login__form" onsubmit="return false">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required>
-            <div class="loginEmail__error">
-            </div>
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" required>
-            <div class="loginMdp__error">
-            </div>
-            <input type="submit" value="Se connecter" id="submit">
-        </form>
+        <form id="loginForm">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		
+			<label for="password">Mot de passe:</label>
+			<input type="password" id="password" name="password" required>
+		
+			<button type="submit">Connexion</button>
+			<div id="loginError" style="color:red;"></div>
+		</form>
+		
         <a href="">Mot de passe oublié</a>
     </section>
 </main>
@@ -63,5 +63,6 @@
 		</ul>
 	</nav>
 </footer>
+<script type="module" src="/FrontEnd/Login.js"></script> 
 </body>
 </html>
