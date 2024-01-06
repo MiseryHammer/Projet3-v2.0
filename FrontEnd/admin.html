@@ -47,14 +47,19 @@
 	<section id="portfolio">
 
 		
-		<h2>Mes Projets</h2>
+		<h2>Mes Projets</h2><!-- Ajouter ceci quelque part dans le corps de votre fichier index.html -->
+		<a href="admin.html">Admin</a>
+		<!-- Ajouter ceci dans le corps de votre fichier admin.html -->
+<div id="adminModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Contenu de la modal admin...</p>
+    </div>
+</div>
 
-		<div class="filter-buttons">
-			<button onclick="filterGallery('Tous')">Tous</button>
-			<button onclick="filterGallery('Objets')">Objets</button>
-			<button onclick="filterGallery('Appartements')">Appartements</button>
-			<button onclick="filterGallery('Hotels & restaurants')">Hotels & Restaurants</button>
-		</div>
+		
+
+
 	
 		<div class="gallery">
 			
@@ -83,7 +88,7 @@
 	</nav>
 </footer>
 <script src="/FrontEnd/global.js" ></script>
-
+<script src="/FrontEnd/modal.js"></script>
 
 </body>
 </html>

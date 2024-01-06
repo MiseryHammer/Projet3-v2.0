@@ -53,5 +53,4 @@ function filterGallery(category) {
 // Charge initialement la galerie
 loadGallery();
 
-
-
+// test

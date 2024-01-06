@@ -28,10 +28,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         sessionStorage.setItem('userId', data.userId);
         sessionStorage.setItem('token', data.token);
 
-        window.location.href = 'index.html'; // Redirection en cas de succès
+        window.location.href = 'admin.html'; // Redirection en cas de succès
     })
     .catch(error => {
         document.getElementById('loginError').textContent = 'Erreur de connexion. Veuillez réessayer.';
         console.error('Erreur lors de la connexion:', error);
     });
 });
+
+
+
